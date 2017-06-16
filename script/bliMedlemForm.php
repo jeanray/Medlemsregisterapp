@@ -2,6 +2,8 @@
 /*
   Ting som må gjøres i videre utvikling av applikasjonen:
     - sørg for at personer som melder seg inn i linjeforeningen får tilsendt en kvittering på epost.
+      - Jeg har hatt hell med å sende epost fra usn-serveren med PHPMailer-biblioteket man finner på github, opp mot forskjellige SMTP-servere.
+      - Sender både plaintext og HTML-epost, og er enkelt å konfigurere og ta i bruk.
     - mer clean design på kvittering etter at bruker har lykkes med å melde seg inn.
     - diverse annet.
 */
